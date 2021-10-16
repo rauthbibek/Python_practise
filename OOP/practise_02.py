@@ -24,8 +24,8 @@ item2 = Item("Laptop", 5000) #we have not passed 'quantity' here
 
 
 '''
-we have added some attributes to the constructor, that doesn't means we can't add some more attributes
-based on our requirements.So, we can add other attributes after we instantiate the instance.
+we have added some attributes to the constructor, that doesn't mean we can't add some more attributes
+based on our requirements. We can add other attributes after we instantiate the instance.
 '''
 item2.has_numpad = False 
 
