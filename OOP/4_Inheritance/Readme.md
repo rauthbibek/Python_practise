@@ -29,3 +29,6 @@
 
 #### 'a' is the instance of the class Employee. The construtor i.e. the __ init __ function of a class is invoked when we create an object of the class. The parameters defined within __ init __() are called as the instance attributes. Hence, 'name' and 'idnumber' are the instance attributes of class Person and similarly, 'salary' and 'position' are the instance attributes of class Employee. Since the class Employee inherits from class Person, 'name' and 'idnumber' are can be accessed through instance of the class Employee.
 #### If you forget to invoke the __ init __ () of the parent class then its instance attributes would not be available to the child class.
+
+
+[](SingleInheritance.png)
