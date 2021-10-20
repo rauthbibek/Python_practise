@@ -28,8 +28,16 @@ class Item:
         self.price = self.price*self.pay_rate
         return self.price
 
+    #Class methods sending class referrence as a first argument, whereas the
+    #instance methods sending instance referrence as a first argument
     @classmethod
     def instantiate_from_csv(cls):
+        '''
+        This should also do something that has a relationship
+        with the class, but usually, those are used to
+        manipulate different structures of data to instantiate
+        objects, like we have done with CSV.
+        '''
         with open('OOP\\3_ClassNStatic_methods\\items.csv', 'r') as f:
             reader = csv.DictReader(f)
             items = list(reader)
